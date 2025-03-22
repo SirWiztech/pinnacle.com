@@ -1,0 +1,731 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #656807;
+    max-width: 100%;
+    height: 100vh;
+}
+
+#links{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    border-bottom: 5px solid #f2fa0c;
+}
+#links:hover{
+    position: relative;
+    bottom: 10px;
+}
+.nav, .container-fluid1{
+    gap: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: large;
+    
+}
+
+.container-fluid1{
+    justify-content: space-around;
+    gap: 500px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links:hover{
+    border-bottom-color: rgb(2, 253, 2);
+}
+
+.section1{
+    padding: 30px;
+    margin-top: 60px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.colo{
+    color: white;
+    align-self: flex-start;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+#Typewtiter{
+    color: blue;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+#cursor{
+    color: #f2fa0c;
+    animation: blink 1s linear infinite;
+
+}
+
+@keyframes blink {
+    0% { 
+        opacity: 100%;
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
+.colo1{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid rgb(2, 253, 2);
+    width: fit-content;
+    position: relative;
+    left: 700px;
+    top: 20px;
+}
+
+
+#rota{
+    background-color: #8e920e ;
+    /* background-color: aqua; */
+    position: relative;
+    z-index: 1;
+}
+.logo1{
+    background-color: #f2fa0c;
+    width: 5%;
+    font-size: 10px;
+    color: #f2fa0c;
+    position: absolute;
+    left: 3px;
+    bottom: 5px;
+    z-index: 0;
+    animation: effect1 2s infinite;
+}
+
+#hove1:hover, #success2:hover{
+    background-color: #f2fa0c;
+    color: black;
+}
+
+#first10 a{
+    color: white;
+}
+
+
+
+
+@keyframes effect1 {
+
+    from 0% { left: 0px;}
+         25% { left: 90px;}
+         50% { bottom: 48px; }
+         75% { right: 100px; }
+    to  100% {top: 20px; }
+
+}
+
+.paragraph1{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+
+
+.video{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 50px;
+}
+
+.btn{
+    background-color: rgb(13, 184, 13);
+}
+
+.input-group-text{
+    background-color: #f2fa0c;
+}
+
+.card-body{
+    background-color: whitesmoke;
+}
+
+.carousel{
+    width: 50%;
+    color: white;
+}
+
+.slido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slidohead{
+    font-size: 40px;
+    color: white;
+    border-bottom: 5px solid rgb(2, 253, 2);
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book{
+    float: left;
+    width: 30%;
+
+}
+
+#para5{
+    position: relative;
+    left: 12px;
+    font-size: 30px
+}
+
+#pay{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 30px;
+}
+
+.btn{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.collect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(13, 184, 13, 0.548);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    padding: 50px;
+    text-align: center;
+}
+
+.card-last{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.col{
+    color: white;
+    font-size: 30px;
+}
+
+.copyright{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore{
+    color: black;
+    background-color: rgb(2, 253, 2);
+}
+
+#form,#payment{
+display: none;
+}
+
+#success1,#success2{
+    display: none;
+}
+#now{
+    color: white;
+    border-radius: 20px;
+}
+#now:hover{
+    background-color: #f2fa0c;
+    color: black;
+}
+
+#button10{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    right: 500px;
+    bottom: 150px;
+   
+}
+
+.card{
+    width: 18rem;
+}
+
+.earn1{
+    display: none;
+}
+
+#point{
+    color: #f2fa0c; 
+    font-size: 40px;
+}
+
+#first1{
+    display: none;
+}
+
+#second1{
+    display: block;
+}
+
+.nav2nd{
+    visibility: hidden;
+}
+
+
+.animate{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 5s;
+}
+
+.earn{
+    width: 30%;
+    height: 70%;
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: ease-in-out 0.9s;
+}
+
+.offcanvas{
+    max-width: 70%;
+}
+
+@media (max-width: 600px) {
+    body{
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .nav2nd{
+        visibility: visible;
+    }
+
+    #navbar1{
+        visibility: hidden;
+    }
+
+    .section1{
+        flex-direction: column;
+       margin-top: 1rem;
+    }
+
+    .img{
+       margin-top: 15px; 
+    }
+
+    .features{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-left: -20px
+    }
+
+    .card{
+        max-width: 90%;
+    }
+
+    .colo1{
+        margin-left: -550px;
+    }
+
+    #pay{
+        font-size: 23px;
+        margin-left: 0.1rem;
+        white-space: wrap ;
+    }
+
+    #point{
+        font-size: 30px;
+    }
+
+    .card-last{
+        flex-direction: column;
+    }
+
+    .navbar .container-fluid #sat{
+        width: 90%;
+    }
+
+    .s20{
+        width: 80%;
+    }
+    
+    #button10{
+        position: relative;
+        left: 20px;
+        top: -50px;
+        margin-top: 100px;
+    }
+
+    #payment,#form{
+        white-space: nowrap;
+        position: relative;
+        right: 20%;
+        font-size: 1.5rem;
+    }
+    #pay50{
+        white-space: wrap;
+    }
+
+    #form label{
+        font-size: 1.3rem;
+    }
+
+    #success1,#success2{
+        white-space: nowrap;
+        position: relative;
+        left: -50px;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+
+    .col{
+        font-size: 1.2rem;
+        line-height: 45px;
+        white-space: nowrap;
+    }
+
+    .copyright{
+        font-size: 1.5rem;
+    }
+
+    #para5,.paragraph1{
+        font-size: 1.5rem;
+    }
+
+    .colo1,.slidohead{
+        font-size: 1.8rem;
+    }
+
+    .slido{
+        width: 160%;
+        margin-left: -160px;
+    }
+
+    .colo{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .colo{
+        font-size: 2rem;
+    }
+
+    #upDown{
+        width: 90%;
+    }
+
+    #button10{
+        font-size: 1rem;
+        left: 5px;
+    }
+
+    #button10 .btn{
+        font-size: 1.5rem;
+    }
+
+    .card{
+       max-width: 90%;
+    }
+
+    .features{
+        margin-left: -25px;
+        
+    }
+
+    .card{
+        width: 12.5rem;
+    }
+
+    .card-body .btn{
+        font-size: 1rem;
+    }
+
+    .colo1{
+        margin-left: -600px;
+    }
+
+    .slido{
+        margin-left: -110px;
+    }
+
+    .book{
+        width: 50%;
+    }
+
+    .earn{
+        display: none;
+    }
+
+    .earn1{
+        display: block;
+        width: 80%;
+        margin-bottom: 100px;
+        margin-left: 35px;
+    }
+
+    #now{
+        font-size: 1.5rem;
+    }
+
+    .pay10{
+        font-size: 1rem;
+    }
+
+    #payment{
+        font-size: 1.05rem;
+        width: 120%;
+        margin-left: 30px;
+        line-height: 200%;
+    }
+
+    .confirm{
+        font-size: 1.2rem;
+    }
+
+    #form label{
+        font-size: 1rem;
+    }
+
+    #form{
+        width: 120%;
+        margin-left: 30px;
+    }
+
+    .form-control{
+        width: 50%;
+    }
+
+    #success1, #success2{
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+
+    #success1{
+        width: 120%;
+    }
+
+    .card-last .last, .s20{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .btn-outline-success{
+        font-size: 1.2rem;
+    }
+
+    #sat{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media  (max-width: 375px){
+
+        
+
+        .colo{
+            white-space: nowrap;
+            font-size: 1.6rem;
+            margin-left: -12px;
+        }
+
+        #button10{
+            gap: 45px;
+        }
+        
+        .colo1{
+            font-size: 1.5rem;
+            margin-left: -600px;
+            white-space: nowrap;
+        }
+
+        .paragraph1{
+            font-size: 1.3rem;
+            max-width: 150%;
+            margin-top: 20px;
+        }
+        
+        .features{
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-left: 50px;
+        }
+
+        .card{
+            width: 20rem;
+            margin-left: -30px;
+        }
+    
+        .card-body .btn{
+            font-size: 1rem;
+        }
+
+        .slido{
+            margin-left: -160px;
+            width: 200%;
+        }
+
+        .slidohead{
+            font-size: 1.5rem;
+        }
+
+        .book{
+            width: 70%;
+            font-size: 1rem;
+        }
+
+        .register{
+            width: 100%;
+        }
+
+        .earn1{
+            width: 100%;
+            margin-left: -4px;
+        }
+
+        #pay10{
+            width: 100%;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        #payment{
+            font-size: 1rem;
+            width: 130%;
+            margin-left: 10px;
+            white-space: wrap;
+        }
+
+        #form{
+            width: 130%;
+            margin-left: 10px;
+            font-size: 1rem;
+            white-space: wrap;
+            text-align: center;
+        }
+
+        #first1{
+            display: block;
+        }
+
+        #second1{
+            display: none;
+        }
+
+        #success1{
+            white-space: wrap;
+        }
+
+        #success1, #success2{
+            margin-left: 30px;
+        }
+
+        .modal-title {
+            font-size: 1rem;
+        } 
+
+        .modal-body{
+            font-size: 1rem;
+        }
+
+        .modalbtn{
+            font-size: 1rem;
+        }
+
+        .video{
+            flex-direction: column;
+            gap: 20px;
+            width: 300%;
+            margin-left: 10px;
+        }
+
+
+}
+    
+@media (max-width: 320px){
+
+    .colo1{
+        margin-left: -630px;
+    }
+
+    .features{
+        margin-left: 25px;
+    }
+
+    .slido{
+        margin-left: -140px;
+        width: 200%;
+    }
+
+    #payment{
+        width: 143%;
+       margin-left: -5px;
+    }
+
+    .modal-btn{
+        font-size: 1rem;
+    }
+
+    
+    
+
+}
